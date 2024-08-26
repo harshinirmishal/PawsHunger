@@ -116,7 +116,7 @@
             background-color: #ffffff;
             padding: 50px 20px;
             text-align: center;
-            height : 600px;
+            height: 600px;
         }
         .mission-section h2 {
             font-size: 2.5em;
@@ -214,6 +214,56 @@
                 flex-direction: column;
             }
         }
+        .instagram-section {
+            background-color: #b3daff;
+            padding: 50px 20px;
+            text-align: center;
+            top: 50px;
+        }
+  
+        .instagram-section .instagram-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 1200px;
+            margin: 50px auto 0;
+            gap: 20px;
+        }
+        .instagram-card {
+            border-radius: 10px;
+            padding: 0;
+            max-width: 350px;
+        }
+
+        .instagram-card img {
+            width: 350px;
+            height: auto;
+            display: block;
+        }
+    
+        .instagram-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .paw-image {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 50px; /* Adjust the size of the paw as needed */
+            height: auto;
+            opacity: 0.7; /* Adjust the opacity if needed */
+        }
+
+        .icon-group img {
+        margin: 0; /* Removes any default margin */
+        padding: 0; /* Ensures no padding is applied */
+        }
+
+
     </style>
 </head>
 <body>
@@ -255,26 +305,100 @@
         </div>
     </div>
 </div>
-
-<div class="support-section">
-    <h2>At Paws Hunger</h2>
-    <p class="welcome-text">We Welcome Everyone!</p>
-    <p>You can support Pawshunger's mission to care for stray animals by volunteering, joining our team, or donating today!</p>
-    <div class="support-options">
-        <div class="option">
-            <img src="Volunteer.png" alt="Volunteer Icon">
-            <p>Volunteer</p>
+<div class="instagram-section">
+    <div class="instagram-header">
+        <img src="Logo.png" alt="Paws Hunger Logo" style="height: 95px; margin-right: 10px;">
+        <img src="Multipy_sign.png" alt="Sign" style="height: 50px;">
+        <img src="Insta_Logo.png" alt="Instagram Logo" style="height: 98px;">
+    </div>
+    <div class="instagram-content">
+        <!-- First Row -->
+        <div class="instagram-row" style="display: flex;">
+            <div class="instagram-card" style="flex: 1; padding: 10px;">
+                <img src="Grid_1.png" alt="Instagram Image 1" style="width: 100%; height: auto;">
+            </div>
+            <div class="instagram-card" style="flex: 1; padding: 10px;">
+                <img src="Grid_2.png" alt="Instagram Image 2" style="width: 100%; height: auto;">
+            </div>
+            <div class="instagram-card" style="flex: 1; padding: 10px; position: relative;">
+                <img src="Grid_3.png" alt="Instagram Image 3" style="width: 100%; height: auto;">
+                <img src="Paw_dog.png" alt="Paw Image" class="paw-image">
+            </div>
         </div>
-        <div class="option">
-            <img src="Donate.png" alt="Donate Icon">
-            <p>Donate</p>
-        </div>
-        <div class="option">
-            <img src="Collaborate.png" alt="Collaborate Icon">
-            <p>Collaborate</p>
+        <!-- Second Row -->
+        <div class="instagram-row" style="display: flex;">
+            <div class="instagram-card" style="flex: 1; padding: 10px;">
+                <img src="Grid_4.png" alt="Instagram Image 4" style="width: 100%; height: auto;">
+                <div class="icon-group" style="display: flex; justify-content: space-around; padding-top: 10px; margin-left: -10px;">
+                    <img src="Like.png" alt="Like Icon" style="height: 50px; width: 50px">
+                    <img src="Comment.png" alt="Comment Icon" style="height: 50px; width: 50px ">
+                    <img src="Share.png" alt="Share Icon" style="height: 50px; width: 50px">
+                </div>
+            </div>
+            <div class="instagram-card" style="flex: 1; padding: 10px;">
+                <img src="Grid_5.png" alt="Instagram Image 5" style="width: 100%; height: auto;">
+            </div>
+            <div class="instagram-card" style="flex: 1; padding: 10px;">
+                <img src="Grid_6.png" alt="Instagram Image 6" style="width: 100%; height: auto;">
+                <div class="save-icon" style="display: flex; justify-content: flex-end; padding-top: 10px; margin-right: -10px;">
+                    <img src="Save.png" alt="Save Icon" style="height: 50px; width: 50px">
+                </div>
+            </div>
         </div>
     </div>
 </div>
-hello world!!!
+<footer style="background-color: #044B98; padding: 40px 0; color: #ffffff; text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <div style="display: flex; justify-content: space-between;">
+            <!-- Image Section -->
+            <div style="flex: 1; max-width: 300px; text-align: left;">
+                <img src="Logo.png" alt="Paws Hunger Logo" style="max-width: 200px; height: auto; margin-top: 20px;">
+                <!-- Added About Us Paragraph -->
+                <p style="margin-top: 20px; line-height: 1.8;">Paws Hunger is a non-profit organization dedicated to providing food and care for animals in need.</p>
+            </div>
+            <!-- Links and Contacts Section -->
+            <div style="flex: 2; display: flex; justify-content: flex-end; align-items: flex-start;">
+                <!-- Quick Links Section -->
+                <div style="text-align: left; margin-right: 120px;">
+                    <h3 style="font-size: 1.5em;">Links</h3>
+                    <ul style="list-style: none; padding: 0; margin-top: 15px;">
+                        <li style="line-height: 1..1; margin-top: 10px;"><a href="#" style="color: #ffffff; text-decoration: none;">Home</a></li>
+                        <li style="line-height: 1.1; margin-top: 10px;"><a href="#" style="color: #ffffff; text-decoration: none;">About Us</a></li>
+                        <li style="line-height: 1.1; margin-top: 10px;"><a href="#" style="color: #ffffff; text-decoration: none;">Volunteer</a></li>
+                        <li style="line-height: 1.1; margin-top: 10px;"><a href="#" style="color: #ffffff; text-decoration: none;">Adoptions</a></li>
+                        <li style="line-height: 1..1; margin-top: 10px;"><a href="#" style="color: #ffffff; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Us Section -->
+                <div style="text-align: left; margin-right: 30px;">
+                    <h3 style="font-size: 1.5em;">Contact Us</h3>
+                    <p style="line-height: 1.1; margin-top: 10px;">Email: info@pawshunger.org</p>
+                    <p style="line-height: 1.1; margin-top: 2px;">Phone: +123 456 7890</p> <!-- Further reduced margin-top -->
+                    <p style="line-height: 1.1; margin-top: 2px;">Address: 123 Animal Street, City, Country</p> <!-- Further reduced margin-top -->
+                </div>
+
+                <!-- Socials Column -->
+                <div style="text-align: right;">
+                    <h3 style="font-size: 1.5em;">Socials</h3>
+                    <a href="https://www.instagram.com/your_instagram_page/" target="_blank">
+                        <img src="Insta.png" alt="Instagram Logo" style="height: 30px; width: auto; margin-top: 0.1px; margin-right: 20px;"> <!-- Adjusted height and margin-top -->
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- All Rights Reserved Section -->
+        <div style="margin-top: 90px;">
+            <p>&copy; 2024 Paws Hunger. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
 </body>
 </html>
